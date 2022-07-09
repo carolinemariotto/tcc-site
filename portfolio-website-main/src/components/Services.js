@@ -6,12 +6,11 @@ const Services = () => {
     <section id='services' className='section bg-tertiary'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <h2 className='section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>
-            What I do for clients
+          <h2 className='section-title before:content-services relative before:absolute before:opacity-20 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>
+           EXTRAS :
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+           Algumas Indicações que valem a pena dar uma olhada :
           </p>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>

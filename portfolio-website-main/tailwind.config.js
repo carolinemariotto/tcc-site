@@ -7,8 +7,8 @@ module.exports = {
     },
     container: {
       padding: {
-        DEFAULT: '1rem',
-        lg: '3rem',
+        DEFAULT: '0.5rem',
+        lg: '1rem',
       },
     },
     screens: {
@@ -20,17 +20,14 @@ module.exports = {
     extend: {
       content: {
         about: 'url("/src/assets/img/outline-text/about.svg")',
-        portfolio: 'url("/src/assets/img/outline-text/portfolio.svg")',
-        services: 'url("/src/assets/img/outline-text/services.svg")',
-        testimonials: 'url("/src/assets/img/outline-text/testimonials.svg")',
         contact: 'url("/src/assets/img/outline-text/contact.svg")',
       },
       colors: {
-        primary: '#281C2D',
-        secondary: '#1c2b38',
-        tertiary: '#131419',
+        primary: '#0A091F',
+        secondary: '#1FB5BA', // banner studygif
+        tertiary: '#0A091F',
         accent: {
-          DEFAULT: '#29d6d5', ///feito//
+          DEFAULT: '#29d6d5', ///button feito//
           hover: '#abc1d5',//button feito //
         },
         paragraph: '#F2F2F0', //letra branca

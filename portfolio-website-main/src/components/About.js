@@ -27,10 +27,11 @@ const About = () => {
                 labore culpa nihil. <br />
               </p>
             </div>
-        
+            <a href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfsctSnqqdVHJRkPTGDFLjmqKKsjLglWZjBxRShQGfQMhLcxJWrvTHsstklvrNHWKlVfgB'>
               <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
                 Contact me
               </button>
+            </a>
           </div>
         </div>
       </div>

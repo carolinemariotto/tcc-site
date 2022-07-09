@@ -1,4 +1,10 @@
-import {FaPinterest} from "@react-icons/all-files/fa/FaPinterest";
+import { FcKindle } from "react-icons/fc";
+import {
+  FaPinterest, 
+  FaNewspaper, 
+  FaAppleAlt,
+  FaGoogleDrive,
+} from 'react-icons/fa';
 import {
   FiInstagram,
   FiGithub,
@@ -11,13 +17,14 @@ import {
   FiPhone,
 } from 'react-icons/fi';
 
+
 // projects images
-import Project1 from './assets/img/1.png';
-import Project2 from './assets/img/2.png';
-import Project3 from './assets/img/3.png';
-import Project4 from './assets/img/4.png';
-import Project5 from './assets/img/1.png';
-import Project6 from './assets/img/1.png';
+import Project1 from './assets/img/marketing.png';
+import Project2 from './assets/img/ebook-ing.png';
+import Project3 from './assets/img/drive-study.png';
+import Project4 from './assets/img/curso-ing.png';
+import Project5 from './assets/img/apostilas.png';
+import Project6 from './assets/img/filadd.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -25,11 +32,6 @@ import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg7 from './assets/img/skills/git.png';
-
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -48,10 +50,6 @@ export const navigation = [
   {
     name: 'services',
     href: 'services',
-  },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
   },
   {
     name: 'contact',
@@ -78,39 +76,40 @@ export const social = [
 export const projectsData = [
   {
     id: '1',
-    image: Project1,
-    name: 'E-book Marketing Digital',
-    category: 'GRATUITO',
+    image: Project1, 
+    name: <a href='https://drive.google.com/file/d/1mwca-lybJXYE-Ljw4yOhxeSTVN7xwn45/view?usp=sharing'>E-book de Marketing</a>,
+    category: 'GRATUITOS',
   },
   {
     id: '2',
     image: Project2,
-    name: 'E-book de Inglês',
-    category: 'GRATUITO',
+    name: <a href='https://drive.google.com/file/d/15_K04ljBS3a8Lg9PrlFsL1e5zdj3R1oE/view?usp=sharing'>E-book de Inglês</a>,
+    category: 'GRATUITOS',
   },
   {
     id: '3',
     image: Project3,
-    name: 'CONTEÚDO DE ESTUDOS',
-    category: 'SALVO NO GOOGLE DRIVE',
+    name: <a href='https://drive.google.com/drive/folders/1SbdGZ_7lhdVYFZr49AF1MGm2p2Sjd9Ds?usp=sharing'>Drive de ESTUDOS</a>,
+    category: 'GRATUITOS',
   },
   {
     id: '4',
     image: Project4,
-    name: 'CURSO DE INGLÊS',
-    category: 'Ir para o curso',
+    name: <a href='https://go.hotmart.com/I70223663A'>Curso de Inglês</a>,
+    category: 'SITES',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: <a href='https://www.estudoprep.com.br/'>Apostilas</a>,
+    category: 'INDICAÇÃO',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: <a href='https://www.estudoprep.com.br/'>Filadd</a>,
+    category: 'INDICAÇÃO',
+  
   },
 ];
 
@@ -126,7 +125,7 @@ export const projectsNav = [
     name: 'Sites',
   },
   {
-    name: 'Com Cupom',
+    name: 'Indicação',
   },
 ];
 
@@ -154,52 +153,24 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name:<a href='https://edzz.la/MAQEI?a=92632764'>TREINAMENTO - Marketing Digital</a> ,
+    description: <a href='https://edzz.la/MAQEI?a=92632764'>'Basicamente o treinamento é online, com aulas gravadas, então você tem essa facilidade aí de assistir as aulas quantas vezes quiser e no horário que quiser!</a>,
+  },
+  {
+    icon: <FaAppleAlt/>,
+    name: <a href="https://go.hotmart.com/M58805286Q">Desafio 19 dias</a>,
+    description:<a href="https://go.hotmart.com/M58805286Q">A alguns meses fiz esse desafio e consegui mudar minha rotina, ficar mais saudável e desde então meus hábitos melhoraram muito.</a>,
+  },
+  {
+    icon: <FaNewspaper/>,
+    name: <a href="https://thenewscc.com.br/indicacao?grsf=onl7an">THE NEWS- Newsletter</a>,
+    description:<a href="https://thenewscc.com.br/indicacao?grsf=onl7an">e-mail diário enviado gratuitamente com as notícias mais recentes sobre mundo, Brasil, mercado financeiro e tecnologia</a>,
+  },
+  {
+    icon: <FcKindle/>,
+    name: <a href='https://drive.google.com/drive/folders/1VYsPDuaYnKgHj-ZGC_2no-6sUL9SRJiC?usp=sharing'> DRIVE DE LIVROS</a>,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiSettings />,
-    name: 'Web Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiPenTool />,
-    name: 'Branding',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiTag />,
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    <a href='https://drive.google.com/drive/folders/1VYsPDuaYnKgHj-ZGC_2no-6sUL9SRJiC?usp=sharing'>Um drive com varios livros gratuitos para você ler da melhor forma possível.</a>,
   },
 ];
 
@@ -215,6 +186,11 @@ export const contact = [
     icon: <FiPhone/>,
     title: 'Insta: @carolm_studie',
     subtitle: 'Tiktok: carol_mariotto',
-    description: 'Pinterest: carolm_studies',
   },
+  {
+    icon: <FaPinterest/>,
+    href: 'https://br.pinterest.com/carolmstudies/',
+    title: 'Pinterest: carolmstudies',
+
+  }
 ];
