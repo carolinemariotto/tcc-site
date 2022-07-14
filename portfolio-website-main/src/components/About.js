@@ -3,7 +3,7 @@ import Image from '../assets/img/gifs/study-grif.gif';
 
 const About = () => {
   return (
-    <section className='section bg-secondary' id='Sobre-mim'>
+    <section className='section bg-secondary' id='About'>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-24'>
           <img
@@ -21,10 +21,8 @@ const About = () => {
               </p>
               <hr className='mb-5 opacity-5' />
               <p className='mb-8'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                neque harum velit molestiae dignissimos distinctio dolorum nisi
-                labore culpa nihil. <br />
+              Meu objetivo é ensinar tudo o que você precisa saber, estudos, dicas, rotina e diversas outras informações.
+              
               </p>
             </div>
             <a href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfsctSnqqdVHJRkPTGDFLjmqKKsjLglWZjBxRShQGfQMhLcxJWrvTHsstklvrNHWKlVfgB'>

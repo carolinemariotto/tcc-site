@@ -48,11 +48,11 @@ export const navigation = [
     href: 'materiais',
   },
   {
-    name: 'services',
-    href: 'services',
+    name: 'links',
+    href: 'links',
   },
   {
-    name: 'contact',
+    name: 'contact-me',
     href: 'contact',
   },
 ];
